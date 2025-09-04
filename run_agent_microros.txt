@@ -9,3 +9,6 @@ export ROS_DOMAIN_ID=96
 tao@tao-X556UQK:~$ ros2 topic echo / #เลือก topic 
 
 ros2 topic echo /white_slot/debug/counter 
+
+
+ros2 launch drive_controller joy_drive.launch.py 
