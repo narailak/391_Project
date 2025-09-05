@@ -14,3 +14,5 @@ ros2 topic echo /white_slot/debug/counter
 ros2 launch drive_controller joy_drive.launch.py 
 
 colcon build
+
+sudo usermod -a -G dialout <your_username>
