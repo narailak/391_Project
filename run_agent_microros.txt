@@ -16,3 +16,5 @@ ros2 launch drive_controller joy_drive.launch.py
 colcon build
 
 sudo usermod -a -G dialout <your_username>
+
+nano ~/.bashrc
