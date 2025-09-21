@@ -20,3 +20,6 @@ sudo usermod -a -G dialout <your_username>
 nano ~/.bashrc
 
  . install/setup.bash
+
+
+git pull origin main
