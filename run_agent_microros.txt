@@ -23,3 +23,5 @@ nano ~/.bashrc
 
 
 git pull origin main
+
+rm -rf build install log
