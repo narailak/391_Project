@@ -31,3 +31,5 @@ ip route get 8.8.8.8
 /etc/netplan
 
 sudo netplan apply
+
+ping -c 40 8.8.8.8
