@@ -29,3 +29,5 @@ rm -rf build install log
 ip route get 8.8.8.8
 
 /etc/netplan
+
+sudo netplan apply
