@@ -33,3 +33,5 @@ ip route get 8.8.8.8
 sudo netplan apply
 
 ping -c 40 8.8.8.8
+
+v4l2-ctl --list-devices
