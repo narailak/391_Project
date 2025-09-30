@@ -35,3 +35,6 @@ sudo netplan apply
 ping -c 40 8.8.8.8
 
 v4l2-ctl --list-devices
+
+ros2 launch robot_bringup bringup_all.launch.py enable_cams:=true
+
