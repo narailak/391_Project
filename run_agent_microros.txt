@@ -38,3 +38,6 @@ v4l2-ctl --list-devices
 
 ros2 launch robot_bringup bringup_all.launch.py enable_cams:=true
 
+sudo nmcli general status
+sudo nmcli dev status
+
