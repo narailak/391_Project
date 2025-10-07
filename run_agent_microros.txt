@@ -41,3 +41,9 @@ ros2 launch robot_bringup bringup_all.launch.py enable_cams:=true
 sudo nmcli general status
 sudo nmcli dev status
 
+ros2 launch robot_bringup bringup_all.launch.py enable_cams:=true
+
+tpi5@tpi5:~$ ros2 launch dual_cam_mjpeg_server dual_cam_mjpeg.launch.py 
+ros2 launch robot_bringup bringup_all.launch.py
+
+
