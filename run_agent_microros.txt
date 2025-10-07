@@ -46,5 +46,8 @@ ros2 launch robot_bringup bringup_all.launch.py enable_cams:=true
 
 ros2 launch dual_cam_mjpeg_server dual_cam_mjpeg.launch.py 
 ros2 launch robot_bringup bringup_all.launch.py
+ros2 run micro_ros_agent micro_ros_agent serial --dev /dev/ttyUSB0 -b 115200 
+ros2 run micro_ros_agent micro_ros_agent serial --dev /dev/ttyUSB1 -b 115200 
+
 
 
